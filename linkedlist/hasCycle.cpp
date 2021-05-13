@@ -1,3 +1,10 @@
+/*question:determine if there is a loop in linkedlist
+  author:peixuan zhong
+  date:13/05/2021
+  key idea: use fast and slow pointer and check if they meet
+*/
+
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -6,6 +13,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
 class Solution {
     
 public:
